@@ -1,61 +1,55 @@
-# Calculator CLI App
+# Python To-Do List App
 
 ## Description
-This is a simple Command Line Interface (CLI) Calculator built using Python. It performs basic arithmetic operations such as Addition, Subtraction, Multiplication, and Division.
+A simple command-line To-Do List application built using Python. It allows users to add, view, delete, and save tasks in a text file.
 
 ## Features
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Division by zero handling
-- User-friendly menu
-- Runs continuously until the user chooses to exit
+- Add new tasks
+- View all tasks
+- Delete completed tasks
+- Save tasks automatically
+- Load saved tasks when the program starts
 
-## Technologies Used
-- Python 3
-- VS Code / Any Python IDE
+## Requirements
+- Python 3.x
+
+## How to Run
+
+1. Download or clone the project.
+2. Open a terminal in the project folder.
+3. Run the program:
+
+```bash
+python todo.py
+```
 
 ## Project Structure
+
 ```
-calculator.py
+todo.py
+tasks.txt
 README.md
 ```
 
-## How to Run
-1. Clone the repository:
-   ```
-   git clone <your-github-repository-link>
-   ```
-2. Open the project folder.
-3. Run the program:
-   ```
-   python calculator.py
-   ```
+## Example
 
-## Sample Output
 ```
-===== Calculator =====
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
-5. Exit
+==== TO-DO LIST ====
+1. View Tasks
+2. Add Task
+3. Delete Task
+4. Exit
 
-Enter your choice: 1
-Enter first number: 10
-Enter second number: 20
-
-Result: 30
+Enter your choice: 2
+Enter task: Complete Python assignment
+Task added successfully!
 ```
 
-## Learning Outcomes
+## Technologies Used
+- Python
+- File Handling
+- Lists
 - Functions
-- Loops
-- Conditional Statements
-- User Input
-- Exception Handling
-- CLI Application Development
 
 ## Author
-**Sravanthi Chereddy**
+Sravanthi Chereddy
