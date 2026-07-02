@@ -1,55 +1,59 @@
-# Python To-Do List App
+# Web Scraper for News Headlines
 
-## Description
-A simple command-line To-Do List application built using Python. It allows users to add, view, delete, and save tasks in a text file.
+## Objective
+Build a Python program that scrapes the latest news headlines from a public news website and saves them to a text file.
+
+## Tools Used
+- Python 3
+- requests
+- BeautifulSoup (bs4)
 
 ## Features
-- Add new tasks
-- View all tasks
-- Delete completed tasks
-- Save tasks automatically
-- Load saved tasks when the program starts
+- Fetches HTML content from a news website.
+- Extracts news headlines using BeautifulSoup.
+- Removes duplicate headlines.
+- Displays headlines in the terminal.
+- Saves headlines to `headlines.txt`.
 
 ## Requirements
-- Python 3.x
+
+Install the required libraries:
+
+```bash
+pip install requests beautifulsoup4
+```
 
 ## How to Run
 
-1. Download or clone the project.
+1. Save the code as `news_scraper.py`.
 2. Open a terminal in the project folder.
 3. Run the program:
 
 ```bash
-python todo.py
+python news_scraper.py
 ```
+
+## Output
+
+- Displays the latest news headlines in the terminal.
+- Creates a file named `headlines.txt` containing all extracted headlines.
 
 ## Project Structure
 
 ```
-todo.py
-tasks.txt
-README.md
+Web-Scraper/
+│── news_scraper.py
+│── headlines.txt
+└── README.md
 ```
 
-## Example
-
-```
-==== TO-DO LIST ====
-1. View Tasks
-2. Add Task
-3. Delete Task
-4. Exit
-
-Enter your choice: 2
-Enter task: Complete Python assignment
-Task added successfully!
-```
-
-## Technologies Used
-- Python
+## Concepts Used
+- HTTP GET Request
+- HTML Parsing
+- Web Scraping
+- BeautifulSoup
 - File Handling
-- Lists
-- Functions
+- Exception Handling
 
 ## Author
-Sravanthi Chereddy
+**Sravanthi Chereddy**
