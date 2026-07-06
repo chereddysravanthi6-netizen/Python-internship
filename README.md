@@ -1,59 +1,54 @@
-# Web Scraper for News Headlines
+# Task 5 - Data Analysis on CSV Files
 
 ## Objective
-Build a Python program that scrapes the latest news headlines from a public news website and saves them to a text file.
+Analyze sales data from a CSV file using Python and Pandas.
 
 ## Tools Used
 - Python 3
-- requests
-- BeautifulSoup (bs4)
+- Pandas
+- Matplotlib
+- Jupyter Notebook / Google Colab
 
 ## Features
-- Fetches HTML content from a news website.
-- Extracts news headlines using BeautifulSoup.
-- Removes duplicate headlines.
-- Displays headlines in the terminal.
-- Saves headlines to `headlines.txt`.
+- Load CSV file
+- Display dataset information
+- Find total sales
+- Group data using `groupby()`
+- Create bar chart
+- Display basic data insights
+
+## Project Files
+- analysis.ipynb
+- sales_data.csv
+- README.md
 
 ## Requirements
 
 Install the required libraries:
 
 ```bash
-pip install requests beautifulsoup4
+pip install pandas matplotlib
 ```
 
 ## How to Run
 
-1. Save the code as `news_scraper.py`.
-2. Open a terminal in the project folder.
-3. Run the program:
+1. Open Jupyter Notebook or Google Colab.
+2. Open `analysis.ipynb`.
+3. Place `sales_data.csv` in the same folder.
+4. Run all notebook cells.
 
-```bash
-python news_scraper.py
-```
-
-## Output
-
-- Displays the latest news headlines in the terminal.
-- Creates a file named `headlines.txt` containing all extracted headlines.
-
-## Project Structure
-
-```
-Web-Scraper/
-│── news_scraper.py
-│── headlines.txt
-└── README.md
-```
+## Sample Output
+- Dataset loaded successfully
+- Total sales calculated
+- Sales by category displayed
+- Bar chart generated
 
 ## Concepts Used
-- HTTP GET Request
-- HTML Parsing
-- Web Scraping
-- BeautifulSoup
-- File Handling
-- Exception Handling
+- Pandas DataFrame
+- CSV File Handling
+- groupby()
+- sum()
+- Data Visualization
 
 ## Author
 **Sravanthi Chereddy**
